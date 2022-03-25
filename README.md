@@ -19,9 +19,11 @@
       - YES to append conda in PATH environment variable in your .bashrc (last point installer)
     * source ~/.bashrc
 - Change directory to CCCA\_Python\_workshop
-- conda env create -f environment.yml
-- conda activate p3
-- jupyter notebook
+- conda install -c conda-forge iris
+- conda install -c conda-forge ckanapi
+- conda install pandas
+
+You might need to install jupyther kernel in your local python environment to use notebooks.
 
 ## Description
 Due to the increasing popularity of Python in natural sciences, this workshop
